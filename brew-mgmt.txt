@@ -1,0 +1,14 @@
+homebrew
+
+Brew bundle dump 			# create Brewfile in the current directory from currently-installed packages
+> Brew bundle				# install everything form the Brewfile
+ls /usr/local/Cellar	or brew list	# get list of all brew installed packages
+
+zsh updateHomebrewPackages.sh
+
+For user added repos to home-brew rather than official 
+Brew tap domt4/autoupdate
+Brew autoupdate —start 604800 (every week)
+brew untap domt4/autoupdate
+
+
